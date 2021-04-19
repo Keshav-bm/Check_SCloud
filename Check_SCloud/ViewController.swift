@@ -12,10 +12,10 @@ class ViewController: UIViewController {
      override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.CheckValues()
+        self.checkValues()
     }
 
-    func CheckValues() {
+    func checkValues() {
         let values = "10"
         print("Values are:\(values)")
     }
