@@ -19,7 +19,5 @@ class ViewController: UIViewController {
         let values = "10"
         print("Values are:\(values)")
     }
-
-     error
 }
 
