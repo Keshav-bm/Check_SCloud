@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     func checkValues() {
         let values = "10"
         print("Values are:\(values)")
+         self.subBranch()
     }
+     
+     func subBranch() {
+          print("Sub branch created")
 }
 
