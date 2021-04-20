@@ -19,9 +19,15 @@ class ViewController: UIViewController {
         let values = "10"
         print("Values are:\(values)")
          self.subBranch()
+         self.secondSubBranchCreated()
     }
      
      func subBranch() {
           print("Sub branch created")
+     }
+     
+     func secondSubBranchCreated() {
+          print("Second Sub branch created")
+     }
 }
 
